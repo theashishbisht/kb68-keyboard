@@ -1,0 +1,47 @@
+# KiCad
+*.bak
+*~
+*.tmp
+*-backups/
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.lck
+
+# QMK build output
+firmware/**/.build/
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+
+# Fusion 360
+*.f3z
+*.f3d
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Node.js
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Datasheets (too large for git)
+docs/datasheets/*.pdf
+
+# Temp
+*.log
+temp/
